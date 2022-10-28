@@ -151,10 +151,18 @@ nav li:first-child {
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
+
+  color: grey;
 }
 
 .features li {
   width: 160px;
+}
+
+.features img {
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  margin-bottom: 5px;
 }
 
 .quote {
