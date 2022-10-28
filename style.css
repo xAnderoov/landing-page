@@ -43,7 +43,6 @@ ul {
 
 h1,
 h2,
-h3,
 p,
 figure,
 blockquote {
@@ -77,17 +76,11 @@ blockquote {
   border-color: white;
 }
 
-.container-lg {
+.container {
   padding: 0 14.375%;
 }
 
-.container-sm {
-  padding: 0 21%;
-}
-
 header {
-  padding-bottom: 50px;
-
   color: #e5e7eb;
 
   background-color: #1f2937;
@@ -163,8 +156,7 @@ nav li:first-child {
 
 .features img {
   box-sizing: border-box;
-  width: 100%;
-  height: auto;
+
   border: 4px solid #3882f6;
   border-radius: 16px;
 }
@@ -172,29 +164,25 @@ nav li:first-child {
 .quote {
   display: flex;
   flex-direction: column;
-  padding-top: 131px;
-  padding-bottom: 102px;
+  padding: 131px 21.5% 102px 23.8%;
 
-  font-size: 36px;
-  font-weight: 300;
   color: #1f2937;
 
   background-color: #e5e7eb;
 }
 
 .quote blockquote {
-  padding-left: 40px;
-
+  font-size: 36px;
+  font-weight: 300;
   font-style: italic;
 }
 
 .quote figcaption {
   align-self: flex-end;
-  padding-right: 34px;
+  padding-right: 27px;
 
   font-size: 24px;
   font-weight: 700;
-  color: #1f2937;
 }
 
 .action {
@@ -205,15 +193,14 @@ nav li:first-child {
 }
 
 .action__wrapper {
-  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   padding: 49px 11.89%;
-  border-radius: 8px;
-
+  
   background-color: #3882f6;
+  border-radius: 8px;
 }
 
 .action h2 {
@@ -222,10 +209,6 @@ nav li:first-child {
   font-size: 24px;
   font-weight: 700;
   color: #f9faf8;
-}
-
-.action button {
-  flex: none;
 }
 
 footer {
